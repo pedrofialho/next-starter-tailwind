@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Features
 
-- [Typescript](https://www.typescriptlang.org);
+- [Typescript](https://www.typescriptlang.org)
 - [EditorConfig](https://editorconfig.org/) for cross-editor coding style consistency
 - [ESLint](https://eslint.org/) for static code analysis
 - [Prettier](https://prettier.io/) for code formatting
@@ -26,6 +26,46 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+### Code Linting
+
+```bash
+npm run lint
+# or
+yarn lint
+```
+
+You can also fix all auto-fixable problems with `--fix`.
+
+#### Suggested VS Code Settings
+
+Additionally, you can install the [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension for VS Code and take advantage of automatic formatting/fixing:
+
+```jsonc
+// .vscode/settings.json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
+
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) is also recommended, along with formatting on save:
+
+```jsonc
+// .vscode/settings.json
+{
+  "editor.formatOnSave": true
+}
+```
+
+#### Configuration
+
+The linter/formatter configuration is pretty great out of the box, but if needed these 3 configuration files can be customized:
+
+- `.editorconfig` - Customize options like charset, EOL, indent type/size, etc. View [EditorConfig Properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties) for more info;
+- `.prettierrc` - Customize advanced formatting rules. View [Prettier Docs](https://prettier.io/docs/en/index.html) for more info.
+- `.eslintrc.json` - Customize static analysis rules. View [ESLint Rules](https://eslint.org/docs/rules/) for more info.
 
 ## Learn More
 
