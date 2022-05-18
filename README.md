@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Features
 
-- [Typescript](https://www.typescriptlang.org)
+- [Typescript](https://www.typescriptlang.org);
+- [EditorConfig](https://editorconfig.org/) for cross-editor coding style consistency
 - [ESLint](https://eslint.org/) for static code analysis
 
 ## Getting Started
