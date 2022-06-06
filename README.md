@@ -8,6 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [EditorConfig](https://editorconfig.org/) for cross-editor coding style consistency
 - [ESLint](https://eslint.org/) for static code analysis
 - [Prettier](https://prettier.io/) for code formatting
+- [classnames](https://github.com/JedWatson/classnames)
 
 ## Getting Started
 
