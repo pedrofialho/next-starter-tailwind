@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [ESLint](https://eslint.org/) for static code analysis
 - [Prettier](https://prettier.io/) for code formatting
 - [classnames](https://github.com/JedWatson/classnames)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Jest](https://jestjs.io) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for unit testing
 
 ## Getting Started
